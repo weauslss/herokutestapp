@@ -8,8 +8,6 @@ const init = async () => {
 		host: 'localhost'
 	});
 
-	console.log(`${PORT}`);
-
 	server.route(
 		{
 			method: 'GET',
@@ -22,6 +20,7 @@ const init = async () => {
 
 	await server.start();
 	console.log('server running on %s', server.info.uri);
+	console.log(PORT);
 };
 
 init();
