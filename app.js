@@ -8,7 +8,7 @@ const init = async () => {
 		host: 'localhost'
 	});
 
-	console.log($PORT);
+	console.log(`${PORT}`);
 
 	server.route(
 		{
