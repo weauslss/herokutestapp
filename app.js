@@ -13,7 +13,7 @@ const init = async () => {
 			method: 'GET',
 			path: '/',
 			handler: (request, h) => {
-				return 'Hello user';
+				return h('Hello user');
 			}
 		}
 	]);
