@@ -2,13 +2,13 @@
 
 const Hapi = require('@hapi/hapi');
 
-const init = async () => {
+const init = () => {
 	const server = Hapi.server({
 		port: process.env.PORT || 5000,
 		host: 'localhost'
 	});
 
-	server.route([
+	server.route(
 		{
 			method: 'GET',
 			path: '/',
@@ -16,9 +16,9 @@ const init = async () => {
 				return h('Hello user');
 			}
 		}
-	]);
+	);
 
-	await server.start();
+	server.start();
 	console.log('server running on %s', server.info.uri);
 };
 
