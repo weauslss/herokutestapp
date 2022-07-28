@@ -1,0 +1,24 @@
+{
+  "name": "herokutestapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weauslss/herokutestapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weauslss/herokutestapp/issues"
+  },
+  "homepage": "https://github.com/weauslss/herokutestapp#readme",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "dependencies": {
+	"@hapi/hapi": "20.2.2"
+  }
+}
