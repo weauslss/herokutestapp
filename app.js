@@ -20,7 +20,7 @@ const init = async () => {
 
 	await server.start();
 	console.log('server running on %s', server.info.uri);
-	console.log(PORT);
+	console.log(process.env.PORT);
 };
 
 init();
