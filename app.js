@@ -8,6 +8,8 @@ const init = async () => {
 		host: 'localhost'
 	});
 
+	console.log(PORT);
+
 	server.route(
 		{
 			method: 'GET',
