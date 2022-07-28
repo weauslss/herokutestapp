@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "@hapi/hapi": "20.2.2",
-    "hapi": "^18.1.0"
+    "hapi-heroku-helpers": "^3.0.0"
   }
 }
